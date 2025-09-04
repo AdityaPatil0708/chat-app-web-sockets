@@ -1,0 +1,29 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "��w\u0000e\u0000b\u0000-\u0000s\u0000o\u0000c\u0000k\u0000e\u0000t\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaPatil0708/web-scokets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaPatil0708/web-scokets/issues"
+  },
+  "homepage": "https://github.com/AdityaPatil0708/web-scokets#readme",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/ws": "^8.18.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.9.2",
+    "ws": "^8.18.3"
+  }
+}
