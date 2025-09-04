@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const ChatApp = () => {
   const [socket, setSocket] = useState<WebSocket | null>(null);
