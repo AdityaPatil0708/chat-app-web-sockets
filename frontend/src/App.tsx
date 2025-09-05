@@ -59,7 +59,7 @@ const ChatApp = () => {
           />
           <button
             onClick={joinRoom}
-            className="px-4 py-2 rounded-lg font-semibold border border-white bg-white text-black"
+            className="px-4 py-2 rounded-lg font-semibold border border-white bg-white text-black hover:cursor-pointer"
           >
             Join
           </button>
