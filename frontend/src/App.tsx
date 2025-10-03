@@ -9,7 +9,7 @@ const ChatApp = () => {
 
   useEffect(() => {
     const ws = new WebSocket("ws://localhost:8080");
-    ws.onopen = () => console.log("✅ Connected to server");
+    ws.onopen = () => console.log("Connected to server");
     ws.onmessage = (event) => {
       setMessages((prev) => [...prev, event.data]);
     };
